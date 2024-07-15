@@ -120,3 +120,29 @@
   font-size: 0.9rem;
   font-weight: 700;
 }
+/* Hero-Image */
+.heroImage {
+  background-image: url(Hero_image.jpg);
+  width: 1500px;
+  height: 600px;
+  background-size: cover;
+  position: relative;
+}
+.heroImage p {
+  background-color: #f5f6f6;
+  width: 85%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  position: absolute;
+  margin: 250px 20px;
+}
+.heroImage p a {
+  color: #007185;
+  text-decoration-line: none;
+}
+a:hover {
+  border-bottom: 1px solid #c7511f;
+}
