@@ -53,7 +53,7 @@
 }
 .search-field {
   width: 100%;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 .search-icon {
   width: 45px;
@@ -72,6 +72,7 @@
   font-size: 0.85rem;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  border: none;
 }
 /* sign-in box */
 .sigh-in {
@@ -122,7 +123,7 @@
 }
 /* Hero-Image */
 .heroImage {
-  background-image: url(Hero_image.jpg);
+  background-image: url("Hero_image.jpg");
   width: 1500px;
   height: 600px;
   background-size: cover;
